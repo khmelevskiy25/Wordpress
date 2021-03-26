@@ -52,4 +52,9 @@
         </div>
         <div>
 </section>
+
 <?php get_footer(); ?>
+<audio id="playAudio" controls>
+    <source src="music.mp3">
+</audio>
+<p class="pre" onclick="soundClick()">Кликни по этому тексту</p>
